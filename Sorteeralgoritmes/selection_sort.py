@@ -1,6 +1,5 @@
 def selection_sort(lijst):
     for stap in range(len(lijst)):
-
         index_voorlopig_kleinste_waarde = stap
 
         for positie in range(index_voorlopig_kleinste_waarde+1,len(lijst)):

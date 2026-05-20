@@ -5,15 +5,12 @@ def bubble_sort(lijst):
                 old_value = lijst[positie+1]
                 lijst[positie + 1] = lijst[positie]
                 lijst[positie] = old_value
+    
+for i in range(8):
+    bubble_sort(list(range(1,1+(10**i))))
+    bubble_sort(list(range((10**i),0,-1)))
 
-lijsten = [
-    [5 , 2 , 4 , 1],
-    [3 , 1 , 2 , 4],
-    [5 , 2 , 4 , 1],
-    [7 , 3 , 5 , 2 , 6],
-    [1 , 3 , 2 , 4 , 5]
-]
-
+lijsten = []
 for lijst in lijsten:
     bubble_sort(lijst)
-    print(lijst)
+    #print(lijst)
