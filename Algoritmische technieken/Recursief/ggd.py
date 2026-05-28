@@ -2,6 +2,7 @@ import random
 import time
 
 def ggd(a,b):
+    
     if b == 0:
         return a
     else:
